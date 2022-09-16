@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Uk_Astra";
+	src: url("../fonts/Uk_Astra.woff2") format("woff2"), url("../fonts/Uk_Astra.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.content {
+	width: 1000px;
+	padding-left: 350px;
+}
+
+.intro {
+	font-family: "Uk_Astra", serif;
+	text-align: center;
+}
+
+.intro-header {
+	font-size: 50px;
+	padding-bottom: 40px;
+	color: green;
+	text-shadow: -5px 5px 5px red;
+}
+
+.bottom {
+	padding-bottom: 40px;
+}
+
+.image {
+	padding-bottom: 20px;
+}
+
+.jeep2 {
+	font-family: Roboto;
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: right;
+	color: blueviolet;
+}
+.jeep2 .image {
+	text-align: center;
+}
+
+.jeep3 {
+	font-family: Roboto, serif;
+	font-style: italic;
+	font-weight: 900;
+	text-decoration: line-through;
+	color: rgba(255, 0, 0, 0.464);
+	text-align: justify;
+	text-transform: capitalize;
+}
+
+.jeep4 {
+	font-size: 25px;
+	text-decoration: overline;
+	text-shadow: 2px 3px 5px blue;
+	text-transform: uppercase;
+	line-height: 2;
+	letter-spacing: 5px;
+	text-align: end;
+}
+
+.jeep5 {
+	font-size: 22px;
+	text-decoration: dotted;
+	text-indent: 25px;
+	text-transform: lowercase;
+	text-shadow: 30px -15px 3px green;
+	letter-spacing: -2px;
+	white-space: nowrap;
+	font-style: oblique;
+}
+
+.jeep6 {
+background-color: rgba(0, 128, 0, 0.429);
+padding: 40px 20px 50px 20px;
+margin-top: -50px;
+}
+
+
+
