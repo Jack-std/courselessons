@@ -1,0 +1,84 @@
+
+.header {
+	display: block;
+	background-color: rgb(90, 164, 150);
+	padding: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.header__titel {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+
+.play {
+	background: url("../img/bg.jpeg") 0 0 / cover no-repeat;
+}
+
+.play__container {}
+
+.himars {
+	position: relative;
+}
+.himars-img {
+	transform: rotate(10deg) scale(0.6);
+	position: relative;
+	left: 600px;
+	top: 200px;
+
+}
+
+.president-img {
+position: absolute;
+top: 580px;
+left: 1130px;
+}
+
+.president-img img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.rocket {
+position: relative;
+}
+
+.rocket__text {
+position: absolute;
+top: -590px;
+left: 480px;
+z-index: 5;
+font-weight: 900;
+font-size: 25px;
+transform: rotate(20deg);
+
+}
+
+
+.rocket__img {
+	position: absolute;
+	top: -800px;
+	left: 100px;
+	transform: scale(0.6) rotate(10deg);
+}
+
+
+.footer {
+	display: block;
+	background-color: royalblue;
+	text-align: center;
+	padding: 40px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.footer a {
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	text-shadow: 2px 2px 5px red;
+}
