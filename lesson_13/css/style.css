@@ -1,0 +1,348 @@
+
+
+.header {
+
+}
+.page {
+	overflow: hidden;
+}
+
+.picture {
+	background: url("../img/bg.jpeg")0 0 / cover no-repeat;
+	height: 800px;
+	width: 100%;
+	position: relative;
+	
+}
+
+.picture--bottom {
+	margin-bottom: 100px;
+}
+
+.president {
+animation: president 15s;
+animation-fill-mode: forwards;
+}
+
+@keyframes president {
+	0% {
+		transform: translate(-1000px, 0px);
+	}
+
+	50% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(-1000px, 0px);
+	}
+}
+
+.president__img {
+	border-radius: 50%;
+	transform: scale(0.8);
+	position: relative;
+	top: 150px;
+}
+
+
+
+.president__text-bg {
+	transform: scale(0.7) translate(-70px, -380px);
+}
+
+.president__text {
+	transform: translate(60px, -170px);
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+
+
+
+.picture__himars {
+	transform: scale(0.5) rotate(8deg);
+	position: absolute;
+	top: 100px;
+	left: 770px;
+}
+
+.picture__rocket {
+	transform: scale(0.3);
+	position: absolute;
+	top: 150px;
+	left: 550px;
+	animation-name: rocket;
+	animation-duration: 1s;
+	animation-delay: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: 5;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+
+
+@keyframes rocket {
+	0% {
+		top: 150px;
+		left: 550px;
+		opacity: 1;
+		
+	}
+	100% {
+		top: -100px;
+		left: -1000px;
+		opacity: 1;
+	}
+}
+
+
+.picture__boom {
+	transform: scale(0.2);
+	position: absolute;
+	top: 50px;
+	left: 590px;
+	animation-name: boom;
+	animation-duration: 1s;
+	animation-delay: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: 5;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes boom {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.block {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+[class*="block__"] {
+	width: 300px;
+	height: 200px;
+	background-color: yellowgreen;
+	margin-bottom: 50px;
+	padding-top: 90px;
+	border-radius: 30px;
+}
+
+.text2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+
+.block__one {
+	transition-duration: 2s;
+}
+
+.block__one:hover {
+	transform: rotate(30deg);
+}
+
+
+.block__two {
+	/*transition-duration: 2s;
+	transition-property: background-color;
+	*/
+	transition: 2s  background-color;
+}
+
+.block__two:hover {
+	background-color: red; 
+	transform: rotate(20deg);
+}
+
+.block__three {
+	/*transition-duration: 2s;
+	transition-property: background-color;
+	transition-delay: 2s;
+	*/
+	transition: 2s background-color 2s;
+}
+
+.block__three:hover {
+	background-color: red;
+	transform: rotate(20deg);
+}
+
+.block__four {
+	/*transition-duration: 2s;
+	transition-property: all;
+	transition-delay: 0s;
+	transition-timing-function: ease-in;
+	*/
+	transition: 2s all 0s ease-in;
+}
+
+.block__four p {
+	transition: 2s all 0s ease-in;
+}
+
+.block__four:hover {
+	transform: rotate(90deg);
+	background-color: blue;
+}
+
+.block__four:hover p {
+	transform: rotate(-90deg) scale(0.9);
+	text-shadow: 5px 5px 5px red;
+}
+
+.block__five:hover {
+	/*animation-name: five;
+	animation-duration: 0.5s;
+	*/
+
+	animation: five 2s;
+}
+
+@keyframes five {
+	0% {
+		transform: translate(0px, 0px);
+	}
+		25% {
+			transform: translate(30px, 30px);
+		}
+
+		50% {
+			transform: translate(-30px, 30px);
+		}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+.block__six:hover {
+	/*animation-name: six;
+	animation-duration: 2s;
+	animation-timing-function:cubic-bezier(1, 0, 0, 1);*/
+
+	animation: six 2s cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes six {
+	0% {
+		transform: translate(0px, 0px);
+	}
+
+	25% {
+		transform: translate(30px, 30px);
+	}
+
+	50% {
+		transform: translate(-30px, 30px);
+	}
+
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+.block__seven:hover {
+	/*animation-name: seven;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 4;*/
+
+	animation: seven 2s ease-in-out 4;
+}
+
+@keyframes seven {
+	0% {
+		transform: translate(0px, 0px);
+	}
+
+	25% {
+		transform: translate(200px, 0px);
+		border-radius: 50%;
+	}
+
+	50% {
+		transform: translate(-200px, 0px);
+	}
+
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+
+.block__eight {
+	/*animation-name: seven;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;*/
+
+	animation: seven 2s ease-in-out infinite alternate;
+}
+
+@keyframes seven {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0);
+	}
+}
+
+.block__nine {
+	height: 300px;
+	background: url("../img/hypnotize.jpeg") 0 0 / cover no-repeat;
+	border-radius: 50%;
+	animation: nine 1s linear infinite;
+}
+
+@keyframes nine {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.block__ten {
+	position: relative;
+	animation-name: ten;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: paused;
+}
+
+@keyframes ten {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	25% {
+		transform: translate(400px, 0px);
+	}
+
+	50%{
+		transform: translate(-400px, 0px);
+	}
+
+	100{
+		transform: translate(0px, 0px);
+	}
+}
+
+.footer {}
