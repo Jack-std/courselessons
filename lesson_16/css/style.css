@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Lato";
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.header__container {
+	display: flex;
+	padding: 20px;
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.header__name {
+	flex: 1 1 auto;
+	font-size: 22px;
+	font-weight: 900;
+}
+
+.header__menu {}
+
+.menu {}
+
+.menu__list {
+	display: flex;
+	gap: 25px;
+}
+
+.menu__item {}
+
+.menu__link {}
+
+.menu__link:hover {
+	color: blue;
+}
+
+/* ====================== */
+
+/* ================================ */
+
+.question {}
+.question__container {
+	max-width: 1245px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 100px;
+}
+
+.question__media,
+.question__content {
+	flex: 0 1 50%;
+}
+.question__media {}
+.question__media img {
+	transform: translate(0px, 65px);
+}
+
+.question__content {}
+.question__titles {
+	margin-bottom: 40px;
+}
+.question__form {}
+
+.titles {
+	color: #1E212C;
+}
+
+.titles__sub-titel {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.titles__main-titel {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;	
+}
+
+
+
+.form {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 25px;
+}
+.form__linee {
+flex: 1 1 auto;
+}
+
+.form__labell {
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 8px;
+}
+.form__inputt {
+	padding: 13px 16px;
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+}
+
+.textareaa {
+	display: flex;
+	flex-direction: column;
+}
+.textareaa__labell {
+	margin-bottom: 8px;
+}
+.textareaa__textarea {
+	padding: 13px 16px;
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+	min-width: 100%;
+}
+
+.check {
+	display: inline-flex;
+	gap: 12px;
+	align-items: center;
+	flex: 0 1 50%;
+}
+.check__labell {}
+
+.check__inputt {
+	display: inline-flex;
+	flex: 0 0 16px;
+	width: 16px;
+	height: 16px;
+	align-self: center;
+}
+
+
+.form__button {
+	display: inline-flex;
+	font-weight: 700;
+	line-height: 52px;
+	color: #FFFFFF;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	padding: 0px 93px;
+}
