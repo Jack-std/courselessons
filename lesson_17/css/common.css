@@ -1,0 +1,46 @@
+
+.common__container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.button {
+	display: inline-block;
+	padding: 0px 40px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	color: #FFFFFF;
+	line-height: 3.25;
+	font-weight: 700;
+}
+
+.button--transparent {
+	background: transparent;
+	border: 1px solid #F75E05;
+	color: #F75E05;
+}
+
+.titles {
+	color: #1E212C;
+}
+
+.titles__sub-titel {
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.titles__main-titel {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+
+@media (max-width: 427.98px) {
+	.button {
+		line-height: 2.25;
+		padding: 0px 15px;
+	}
+}
