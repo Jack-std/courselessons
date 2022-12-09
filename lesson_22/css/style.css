@@ -1,0 +1,56 @@
+
+.body {
+	background-color: rgba(10, 16, 17, 0.415);
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+
+.main-titel {
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: 600;
+}
+.main-titel span {
+	color: rgb(227, 235, 8);
+}
+
+
+.work {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 20px;
+	padding: 20px;
+
+}
+
+.work:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.work__titel {
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+
+.work__list {}
+
+.list {}
+
+.list__item {}
+
+.list__item:not(:last-child) {
+	margin-bottom: 5px;
+}
